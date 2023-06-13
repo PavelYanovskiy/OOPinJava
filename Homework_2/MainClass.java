@@ -11,7 +11,7 @@ public class MainClass {
         Plate plate = new Plate(10);
         plate.info();
         // в методе eat выводим информацию о сытости каждого кота. 
-        //После этого мы добавляем еду в тарелку и выводим информацию о ней.
+        // После этого мы добавляем еду в тарелку и выводим информацию о ней.
         for (Cat cat : cats) {
             cat.eat(plate);
             System.out.println("Кот " + cat.getName() + " голодный: " + cat.isHungry());
