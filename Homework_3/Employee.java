@@ -38,4 +38,8 @@ public abstract class Employee implements Comparable<Employee> {
         else
             return res;
     }
+
+    public int getAge() {
+        return 0;
+    }
 }
